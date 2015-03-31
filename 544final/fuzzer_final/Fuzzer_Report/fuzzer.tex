@@ -1,0 +1,1141 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Journal Article
+% LaTeX Template
+% Version 1.3 (9/9/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[twoside]{article}
+
+
+\usepackage{lipsum} % Package to generate dummy text throughout this template
+
+
+\usepackage[sc]{mathpazo} % Use the Palatino font
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\linespread{1.05} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage{multicol} % Used for the two-column layout of the document
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} % Custom captions under/above floats in tables or figures
+\usepackage{booktabs} % Horizontal rules in tables
+\usepackage{float} % Required for tables and figures in the multi-column environment - they need to be placed in specific locations with the [H] (e.g. \begin{table}[H])
+\usepackage{hyperref} % For hyperlinks in the PDF
+
+\usepackage{lettrine} % The lettrine is the first enlarged letter at the beginning of the text
+\usepackage{paralist} % Used for the compactitem environment which makes bullet points with less space between them
+
+\usepackage{abstract} % Allows abstract customization
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} % Set the "Abstract" text to bold
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape} % Set the abstract itself to small italic text
+
+\usepackage{titlesec} % Allows customization of titles
+\renewcommand\thesection{\Roman{section}} % Roman numerals for the sections
+\renewcommand\thesubsection{\Roman{subsection}} % Roman numerals for subsections
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} % Change the look of the section titles
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} % Change the look of the section titles
+
+\usepackage{fancyhdr} % Headers and footers
+\pagestyle{fancy} % All pages have headers and footers
+\fancyhead{} % Blank out the default header
+\fancyfoot{} % Blank out the default footer
+\fancyhead[C]{Linux Kernel Fuzzing $\bullet$ November 2014} % Custom header text
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+
+\usepackage{listings}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\title{\vspace{-15mm}\fontsize{24pt}{10pt}\selectfont\textbf{Linux Kernel Fuzzing Project}
+\fontsize{15pt}{6pt}\selectfont\textbf {
+\\ build 3.0.4}
+} % Article title
+
+\author{
+\large
+\textsc{Li Li, David Stuve, Hafed Alghamdi}\thanks{A thank you or further information}\\[2mm] % Your name
+\normalsize Oregon State University \\ % Your institution
+\normalsize \href{mailto:alghamha@onid.oregonstate.edu, stuved@onid.oregonstate.edu, lil4@onid.oregonstate.edu}{Group 26} % Your email address
+\vspace{-5mm}
+}
+\date{}
+
+\lstset{language=C}
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Insert title
+
+\thispagestyle{fancy} % All pages have headers and footers
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+\begin{abstract}
+
+The main objective of this project is applying fuzz testing against Linux system calls on kernel build 3.0.4. The team will develop a tool that automates the test against a dozen of Linux kernel system calls applies tremendous values against these system calls and write the results to a log file where it can be analyzed.
+
+
+
+\end{abstract}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+\begin{multicols}{2} % Two-column layout throughout the main article text
+
+\section{Introduction}
+
+\lettrine[nindent=0em,lines=3]{F} uzz testing or fuzzing is a software testing technique, often automated or semi-automated, that involves providing invalid, unexpected, or random data to the inputs of a computer program. The program is then monitored for exceptions such as crashes, or failing built-in code assertions or for finding potential memory leaks. Fuzzing is commonly used to test for security problems in software or computer systems.
+
+The field of fuzzing originated with Barton Miller at the University of Wisconsin in 1988. This early work includes not only the use of random unstructured testing, but also a systematic set of tools to evaluate a wide variety of software utilities on a variety of platforms, along with a systematic analysis of the kinds of errors that were exposed by this kind of testing. In addition, they provided public access to their tool source code, test procedures and raw result data.
+
+There are two forms of fuzzing program, mutation-based and generation-based, which can be employed as white-, grey-, or black-box testing.[1] File formats and network protocols are the most common targets of testing, but any type of program input can be fuzzed. Interesting inputs include environment variables, keyboard and mouse events, and sequences of API calls. Even items not normally considered "input" can be fuzzed, such as the contents of databases, shared memory, or the precise interleaving of threads.
+
+For the purpose of security, input that crosses a trust boundary is often the most interesting.[2] For example, it is more important to fuzz code that handles the upload of a file by any user than it is to fuzz the code that parses a configuration file that is accessible only to a privileged user.
+
+
+%------------------------------------------------
+
+\section{Linux kernel fuzz testing}
+
+Dave Jones, the developer of Trinity, noted that the earliest system call fuzz tester that he had heard of was Tsys, which was created around 1991 for System V Release 4. Another early example was a fuzz tester developed at the University of Wisconsin in the mid-1990s that was run against a variety of kernels, including Linux.
+
+Naive fuzz testers are capable of finding some kernel bugs, but the use of purely random inputs greatly limits their efficacy. To see why this is, we can take the example of the madvise() system call, which allows a process to advise the kernel about how it expects to use a region of memory. This system call has the following prototype:
+
+{\footnotesize
+\begin{lstlisting}
+int madvise(void *addr, size_t length, int advice);
+\end{lstlisting}
+\par}
+
+madvise() places certain constraints on its arguments: addr must be a page-aligned memory address, length must be non-negative, and advice must be one of a limited set of small integer values. When any of these constraints is violated, madvise() fails with the error EINVAL. Many other system calls impose analogous checks on their arguments.
+
+A naive fuzz tester that simply passes random bit patterns to the arguments of madvise() will, almost always, perform uninteresting tests that fail with the (expected) error EINVAL. As well as wasting time, such naive testing reduces the chances of generating a more interesting test input that reveals an unexpected error.
+
+Thus, a few projects started in the mid-2000s with the aim of bringing more sophistication to the fuzz-testing process. One of these projects, Dave's scrashme, was started in 2006. Work on that project languished for a few years, and only picked up momentum starting in late 2010, when Dave began to devote significantly more time to its development. In December 2010, scrashme was renamed Trinity. At around the same time, another quite similar tool, iknowthis, was also developed at Google.
+
+\section{Smart fuzz testing}
+
+Trinity performs intelligent fuzz testing by incorporating specific knowledge about each system call that is tested. The idea is to reduce the time spent running "useless" tests, thereby reaching deeper into the tested code and increasing the chances of testing a more interesting case that may result in an unexpected error. Thus, for example, rather than passing random values to the advice argument of madvise(), Trinity will pass one of the values expected for that argument.
+
+Likewise, rather than passing random bit patterns to address arguments, Trinity will restrict the bit pattern so that, much of the time, the supplied address is page aligned. However, some system calls that accept address arguments don't require memory aligned addresses. Thus, when generating a random address for testing, Trinity will also favor the creation of "interesting" addresses, for example, an address that is off a page boundary by the value of sizeof(char) or sizeof(long). Addresses such as these are likely candidates for "off by one" errors in the kernel code.
+
+In addition, many system calls that expect a memory address require that address to point to memory that is actually mapped. If there is no mapping at the given address, then these system calls fail (the typical error is ENOMEM or EFAULT). Of course, in the large address space available on modern 64-bit architectures, most of the address space is unmapped, so that even if a fuzz tester always generated page-aligned addresses, most of the resulting tests would be wasted on producing the same uninteresting error. Thus, when supplying a memory address to a system call, Trinity will favor addresses for existing mappings. Again, in the interests of triggering unexpected errors, Trinity will pass the addresses of "interesting" mappings, for example, the address of a page containing all zeros or all ones, or the starting address at which the kernel is mapped.
+
+In order to bring intelligence to its tests, Trinity must have some understanding of the arguments for each system call. This is accomplished by defining structures that annotate each system call. For example, the annotation file for madvise() includes the following lines:
+
+{\footnotesize
+\begin{lstlisting}
+    struct syscall syscall_madvise = {
+        .name = "madvise",
+        .num_args = 3,
+        .arg1name = "start",
+        .arg1type = ARG_NON_NULL_ADDRESS,
+        .arg2name = "len_in",
+        .arg2type = ARG_LEN,
+        .arg3name = "advice",
+        .arg3type = ARG_OP,
+        .arg3list = {
+            .num = 12,
+            .values = { MADV_NORMAL, MADV_RANDOM, 
+                    MADV_SEQUENTIAL, MADV_WILLNEED,
+                    MADV_DONTNEED, MADV_REMOVE,
+                    MADV_DONTFORK, MADV_DOFORK,
+                    MADV_MERGEABLE, MADV_UNMERGEABLE, 
+                    MADV_HUGEPAGE, MADV_NOHUGEPAGE },
+        }
+        ....
+    }; 
+    
+\end{lstlisting}
+\par}
+    
+This annotation describes the names and types of each of the three arguments that the system call accepts. For example, the first argument is annotated as ARG\_NON\_NULL\_ADDRESS, meaning that Trinity should provide an intelligently selected, semi-random, nonzero address for this argument. The last argument is annotated as ARG\_OP, meaning that Trinity should randomly select one of the values in the corresponding list (the MADV\_* values above).
+
+The second madvise() argument is annotated ARG\_LEN, meaning that it is the length of a memory buffer. Again, rather than passing purely random values to such arguments, Trinity attempts to generate "interesting" numbers that are more likely to trigger errors—for example, a value whose least significant bits are 0xfff might find an off-by-one error in the logic of some system call.
+
+Trinity also understands a range of other annotations, including ARG\_RANDOM\_INT, ARG\_ADDRESS (an address that can be zero), ARG\_PID (a process ID), ARG\_LIST (for bit masks composed by logically ORing values randomly selected from a specified list), ARG\_PATHNAME, and ARG\_IOV (a struct iovec of the kind passed to system calls such as readv()). In each case, Trinity uses the annotation to generate a better-than-random test value that is more likely to trigger an unexpected error. Another interesting annotation is ARG\_FD, which causes Trinity to pass an open file descriptor to the tested system call. For this purpose, Trinity opens a variety of file descriptors, including descriptors for pipes, network sockets, and files in locations such as /dev, /proc, and /sys. The open file descriptors are randomly passed to system calls that expect descriptors.
+
+In addition to annotations, each system call can optionally have a sanitise routine that performs further fine-tuning of the arguments for the system call. The sanitise routine can be used to construct arguments that require special values (e.g., structures) or to correctly initialize the values in arguments that are interdependent. It can also be used to ensure that an argument has a value that won't cause an expected error. For example, the sanitise routine for the madvise() system call is as follows:
+
+{\footnotesize
+\begin{lstlisting}
+static void sanitise_madvise(int childno)
+{
+  shm->a2[childno] = rand() % page_size;
+} 
+\end{lstlisting}
+\par}
+    
+This ensures that the second (length) argument given to madvise() will be no larger than the page size, preventing the ENOMEM error that would commonly result when a large length value causes madvise() to touch an unmapped area of memory. Obviously, this means that the tests will never exercise the case where madvise() is applied to regions larger than one page. This particular sanitize routine could be improved by sometimes allowing length values that are larger than the page size.
+
+Trinity has been rather successful at finding bugs. Dave reports that he has himself found more than 150 bugs in 2012, and many more were found by other people who were using Trinity. Trinity usually finds bugs in new code quite quickly. It tends to find the same bugs repeatedly, so that in order to find other bugs, it is probably necessary to fix the already discovered bugs first.
+
+Interestingly, Trinity has found bugs not just in system call code. Bugs have been discovered in many other parts of the kernel, including the networking stack, virtual memory code, and drivers. Trinity has found many error-path memory leaks and cases where system call error paths failed to release kernel locks. In addition, it has discovered a number of pieces of kernel code that had poor test coverage or indeed no testing at all. The oldest bug that Trinity has so far found dated back to 1996.
+
+
+
+\section{Planning}
+
+The team decided to follow a modern plan to apply fuzz testing best practice to seek the maximum benefits from this assignment. So, the following plan is summarizing the project phases and milestones:
+
+\begin{enumerate}
+
+\item Check Trinity Blog and find unclean system calls discovered in 3.0 Linux kernel or later versions  and choose 2 out of them in addition to 10 clean system calls.
+
+\item Define a failure criteria.
+
+\item Develop our fuzzing tool based on defined failure criteria
+
+\item Write the team final report in Latex in parallel for about 10 pages to meet the project deadline
+\end{enumerate}
+
+%------------------------------------------------
+
+\section{System Calls}
+
+\begin{enumerate}
+
+\item
+Read from a file descriptor
+{\footnotesize
+\begin{lstlisting}
+ssize_t sys_read(unsigned int fd, 
+                 char* buf, 
+                 size_t count);
+\end{lstlisting}
+\par}
+
+{\bf read}{\rm ()}
+attempts to read up to
+{\it count}
+bytes from file descriptor
+{\it fd}
+into the buffer starting at
+{\it buf}{\rm .}
+
+On files that support seeking,
+the read operation commences at the current file offset,
+and the file offset is incremented by the number of bytes read.
+If the current file offset is at or past the end of file,
+no bytes are read, and
+{\bf read}{\rm ()}
+returns zero.
+
+If
+{\it count}
+is zero,
+{\bf read}{\rm ()}
+{\it may}
+detect the errors described below.
+In the absence of any errors,
+or if
+{\bf read}{\rm ()}
+does not check for errors, a
+{\bf read}{\rm ()}
+with a
+{\it count}
+of 0 returns zero and has no other effects.
+
+If
+{\it count}
+is greater than
+{\bf SSIZE\_MAX}{\rm ,}
+the result is unspecified.
+
+On success, the number of bytes read is returned (zero indicates end of
+file), and the file position is advanced by this number.
+It is not an error if this number is smaller than the number of bytes
+requested; this may happen for example because fewer bytes are actually
+available right now (maybe because we were close to end-of-file, or
+because we are reading from a pipe, or from a terminal), or because
+{\bf read}{\rm ()}
+was interrupted by a signal.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+In this case it is left unspecified whether
+the file position (if any) changes.
+
+
+\item
+Write to a file descriptor
+{\footnotesize
+\begin{lstlisting}
+ssize_t sys_write(unsigned int fd,
+                  const char* buf,
+                  size_t count);
+\end{lstlisting}
+\par}
+
+{\bf write}{\rm ()}
+writes up to
+{\it count}
+bytes from the buffer pointed
+{\it buf}
+to the file referred to by the file descriptor
+{\it fd}{\rm .}
+
+The number of bytes written may be less than
+{\it count}
+if, for example,
+there is insufficient space on the underlying physical medium, or the
+{\bf RLIMIT\_FSIZE}
+resource limit is encountered (see
+{\bf setrlimit}{\rm (2)),}
+or the call was interrupted by a signal
+handler after having written less than
+{\it count}
+bytes.
+(See also
+{\bf pipe}{\rm (7).)}
+
+For a seekable file (i.e., one to which
+{\bf lseek}{\rm (2)}
+may be applied, for example, a regular file)
+writing takes place at the current file offset,
+and the file offset is incremented by
+the number of bytes actually written.
+If the file was
+{\bf open}{\rm (2)ed}
+with
+{\bf O\_APPEND}{\rm ,}
+the file offset is first set to the end of the file before writing.
+The adjustment of the file offset and the write operation
+are performed as an atomic step.
+
+POSIX requires that a
+{\bf read}{\rm (2)}
+which can be proved to occur after a
+{\bf write}{\rm ()}
+has returned returns the new data.
+Note that not all filesystems are POSIX conforming.
+
+On success, the number of bytes written is returned (zero indicates
+nothing was written).
+On error, --1 is returned, and %
+\it errno \rm%
+is set
+appropriately.
+
+If %
+\it count \rm%
+is zero and
+{\it fd}
+refers to a regular file, then
+{\bf write}{\rm ()}
+may return a failure status if one of the errors below is detected.
+If no errors are detected,
+0 will be returned without causing any other effect.
+If
+%
+\it count \rm%
+is zero and
+{\it fd}
+refers to a file other than a regular file,
+the results are not specified.
+
+
+\item
+Open and possibly create a file or device
+{\footnotesize
+\begin{lstlisting}
+int sys_open(const char* filename,
+             int flags,
+             int mode);
+\end{lstlisting}
+\par}
+
+Given a
+{\it pathname}
+for a file,
+{\bf open}{\rm ()}
+returns a file descriptor, a small, nonnegative integer
+for use in subsequent system calls
+{\rm (}{\bf read}{\rm (2),\ }{\bf write}{\rm (2),\ }{\bf lseek}{\rm (2),\ }{\bf fcntl}{\rm (2),\ etc.).}
+The file descriptor returned by a successful call will be
+the lowest-numbered file descriptor not currently open for the process.
+\par
+By default, the new file descriptor is set to remain open across an
+{\bf execve}{\rm (2)}
+(i.e., the
+{\bf FD\_CLOEXEC}
+file descriptor flag described in
+{\bf fcntl}{\rm (2)}
+is initially disabled; the
+{\bf O\_CLOEXEC}
+flag, described below, can be used to change this default).
+The file offset is set to the beginning of the file (see
+{\bf lseek}{\rm (2)).}
+\par
+A call to
+{\bf open}{\rm ()}
+creates a new
+{\it open\ file\ description}{\rm ,}
+an entry in the system-wide table of open files.
+This entry records the file offset and the file status flags
+(modifiable via the
+{\bf fcntl}{\rm (2)}
+{\bf F\_SETFL}
+operation).
+A file descriptor is a reference to one of these entries;
+this reference is unaffected if
+{\it pathname}
+is subsequently removed or modified to refer to a different file.
+The new open file description is initially not shared
+with any other process,
+but sharing may arise via
+{\bf fork}{\rm (2).}
+\par
+The argument
+{\it flags}
+must include one of the following
+{\it access\ modes}{\rm :}
+{\bf O\_RDONLY}{\rm ,\ }{\bf O\_WRONLY}{\rm ,\ or\ }{\bf O\_RDWR}{\rm .}
+These request opening the file read-only, write-only, or read/write,
+respectively.
+
+
+\item
+Close a file descriptor
+{\footnotesize
+\begin{lstlisting}
+int sys_close(unsigned int fd);
+\end{lstlisting}
+\par}
+
+{\bf close}{\rm ()}
+closes a file descriptor, so that it no longer refers to any file and
+may be reused.
+Any record locks (see
+{\bf fcntl}{\rm (2))}
+held on the file it was associated with,
+and owned by the process, are removed (regardless of the file
+descriptor that was used to obtain the lock).
+\par
+If
+{\it fd}
+is the last file descriptor referring to the underlying
+open file description (see
+{\bf open}{\rm (2)),}
+the resources associated with the open file description are freed;
+if the descriptor was the last reference to a file which has been
+removed using
+{\bf unlink}{\rm (2)}
+the file is deleted.
+
+{\bf close}{\rm ()}
+returns zero on success.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+
+
+
+\item
+Create a file or device
+{\footnotesize
+\begin{lstlisting}
+int sys_creat(const char* pathname,
+              int mode);
+\end{lstlisting}
+\par}
+
+\emph{creat()} is equivalent to \emph{open()} with flags equal to \textbf{O\_CREAT} | \textbf{O\_WRONLY} | \textbf{O\_TRUNC}.
+
+
+\item
+Make a new name for a file
+{\footnotesize
+\begin{lstlisting}
+int sys_link(const char* oldname,
+             const char* newname);
+\end{lstlisting}
+\par}
+
+{\bf link}{\rm ()}
+creates a new link (also known as a hard link) to an existing file.
+
+If
+{\it newpath}
+exists it will
+{\it not}
+be overwritten.
+
+This new name may be used exactly as the old one for any operation;
+both names refer to the same file (and so have the same permissions
+and ownership) and it is impossible to tell which name was the
+"original".
+
+On success, zero is returned.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+
+\item
+Execute program
+{\footnotesize
+\begin{lstlisting}
+int execve(const char *filename,
+           char *const argv[],
+           char *const envp[]);
+\end{lstlisting}
+\par}
+
+{\bf execve}{\rm ()}
+executes the program pointed to by %
+\it filename\rm%
+.
+%
+\it filename \rm%
+must be either a binary executable, or a script
+starting with a line of the form:
+
+%
+\bf \#! \rm%
+%
+
+
+%
+\it argv \rm%
+is an array of argument strings passed to the new program.
+By convention, the first of these strings should contain the filename
+associated with the file being executed.
+%
+\it envp \rm%
+is an array of strings, conventionally of the form
+%
+\bf key=value\rm%
+, which are passed as environment to the new program.
+Both %
+\it argv \rm%
+and %
+\it envp \rm%
+must be terminated by a NULL pointer.
+The argument vector and environment can be accessed by the
+called program's main function, when it is defined as:
+
+{\footnotesize
+\begin{lstlisting}
+int main(int argc, char *argv[], 
+         char *envp[]);
+\end{lstlisting}
+\par}
+
+On kernel 2.6.23 and later, most architectures support a size limit
+derived from the soft
+{\bf RLIMIT\_STACK}
+resource limit (see
+{\bf getrlimit}{\rm (2))}
+that is in force at the time of the
+{\bf execve}{\rm ()}
+call.
+(Architectures with no memory management unit are excepted:
+they maintain the limit that was in effect before kernel 2.6.23.)
+This change allows programs to have a much larger
+argument and/or environment list.
+
+For these architectures, the total size is limited to 1/4 of the allowed
+stack size.
+(Imposing the 1/4-limit
+ensures that the new program always has some stack space.)
+% Ollie: That doesn't include the lists of pointers, though,
+% so the actual usage is a bit higher (1 pointer per argument).
+Since Linux 2.6.25,
+the kernel places a floor of 32 pages on this size limit,
+so that, even when
+{\bf RLIMIT\_STACK}
+is set very low,
+applications are guaranteed to have at least as much argument and
+environment space as was provided by Linux 2.6.23 and earlier.
+(This guarantee was not provided in Linux 2.6.23 and 2.6.24.)
+Additionally, the limit per string is 32 pages (the kernel constant
+{\bf MAX\_ARG\_STRLEN}{\rm ),}
+and the maximum number of strings is 0x7FFFFFFF.
+
+{\bf execve}{\rm ()}
+does not return on success, and the text, data, bss, and
+stack of the calling process are overwritten by that of the program
+loaded.
+
+
+\item
+Change working directory
+{\footnotesize
+\begin{lstlisting}
+int sys_chdir(const char* filename);
+\end{lstlisting}
+\par}
+
+{\bf chdir}{\rm ()}
+changes the current working directory of the calling process to the
+directory specified in
+{\it path}{\rm .}
+\par
+{\bf fchdir}{\rm ()}
+is identical to
+{\bf chdir}{\rm ();}
+the only difference is that the directory is given as an
+open file descriptor.
+
+On success, zero is returned.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+
+\item
+Get time in seconds
+{\footnotesize
+\begin{lstlisting}
+int sys_time(int* tloc);
+\end{lstlisting}
+\par}
+
+{\bf time}{\rm ()}
+returns the time as the number of seconds since the
+Epoch, 1970-01-01 00:00:00 +0000 (UTC).
+
+If
+{\it t}
+is non-NULL,
+the return value is also stored in the memory pointed to by
+{\it t}{\rm .}
+
+On success, the value of time in seconds since the Epoch is returned.
+On error, %
+\it ((time\_t)\ --1) \rm%
+is returned, and %
+\it errno \rm%
+is set
+appropriately.
+
+\item
+Create a directory or special or ordinary file
+{\footnotesize
+\begin{lstlisting}
+int sys_mknod(const char* filename,
+              int mode, 
+              dev_t dev);
+\end{lstlisting}
+\par}
+
+The system call
+{\bf mknod}{\rm ()}
+creates a filesystem node (file, device special file or
+named pipe) named
+{\it pathname}{\rm ,}
+with attributes specified by
+{\it mode}
+and
+{\it dev}{\rm .}
+
+The
+{\it mode}
+argument specifies both the permissions to use and the type of node
+to be created.
+It should be a combination (using bitwise OR) of one of the file types
+listed below and the permissions for the new node.
+
+The permissions are modified by the process's
+{\it umask}
+in the usual way: the permissions of the created node are
+{\it (mode\ \&\ \~{}umask)}{\rm .}
+
+The file type must be one of
+{\bf S\_IFREG}{\rm ,}
+{\bf S\_IFCHR}{\rm ,}
+{\bf S\_IFBLK}{\rm ,}
+{\bf S\_IFIFO}
+or
+{\bf S\_IFSOCK}
+% (S_IFSOCK since Linux 1.2.4)
+to specify a regular file (which will be created empty), character
+special file, block special file, FIFO (named pipe), or UNIX domain socket,
+respectively.
+(Zero file type is equivalent to type
+{\bf S\_IFREG}{\rm .)}
+
+If the file type is
+{\bf S\_IFCHR}
+or
+{\bf S\_IFBLK}
+then
+{\it dev}
+specifies the major and minor numbers of the newly created device
+special file
+{\rm (}{\bf makedev}{\rm (3)}
+may be useful to build the value for
+{\it dev}{\rm );}
+otherwise it is ignored.
+
+If
+{\it pathname}
+already exists, or is a symbolic link, this call fails with an
+{\bf EEXIST}
+error.
+
+The newly created node will be owned by the effective user ID of the
+process.
+If the directory containing the node has the set-group-ID
+bit set, or if the filesystem is mounted with BSD group semantics, the
+new node will inherit the group ownership from its parent directory;
+otherwise it will be owned by the effective group ID of the process.
+
+{\bf mknod}{\rm ()}
+returns zero on success, or --1 if an error occurred (in which case,
+{\it errno}
+is set appropriately).
+
+
+\item
+Change permissions of a file
+{\footnotesize
+\begin{lstlisting}
+int sys_chmod(const char* filename,
+              mode_t mode);
+\end{lstlisting}
+\par}
+
+These system calls change the permissions of a file.
+They differ only in how the file is specified.
+
+On NFS filesystems, restricting the permissions will immediately influence
+already open files, because the access control is done on the server, but
+open files are maintained by the client.
+Widening the permissions may be
+delayed for other clients if attribute caching is enabled on them.
+
+On success, zero is returned.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+
+\item
+Change ownership of a file
+{\footnotesize
+\begin{lstlisting}
+int sys_lchown(const char* filename, 
+               uid_t user, 
+               gid_t group);
+\end{lstlisting}
+\par}
+
+These system calls change the owner and group of a file.
+
+Only a privileged process (Linux: one with the
+{\bf CAP\_CHOWN}
+capability) may change the owner of a file.
+The owner of a file may change the group of the file
+to any group of which that owner is a member.
+A privileged process (Linux: with
+{\bf CAP\_CHOWN}{\rm )}
+may change the group arbitrarily.
+
+If the
+{\it owner}
+or
+{\it group}
+is specified as --1, then that ID is not changed.
+
+When the owner or group of an executable file are
+changed by an unprivileged user the
+{\bf S\_ISUID}
+and
+{\bf S\_ISGID}
+mode bits are cleared.
+POSIX does not specify whether
+this also should happen when root does the
+{\bf chown}{\rm ();}
+the Linux behavior depends on the kernel version.
+% In Linux 2.0 kernels, superuser was like everyone else
+% In 2.2, up to 2.2.12, these bits were not cleared for superuser.
+% Since 2.2.13, superuser is once more like everyone else.
+In case of a non-group-executable file (i.e., one for which the
+{\bf S\_IXGRP}
+bit is not set) the
+{\bf S\_ISGID}
+bit indicates mandatory locking, and is not cleared by a
+{\bf chown}{\rm ().}
+
+On success, zero is returned.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+
+\item
+Reposition read/write file offset
+{\footnotesize
+\begin{lstlisting}
+off_t sys_lseek(unsigned int fd,
+                off_t offset,
+                unsigned int origin);
+\end{lstlisting}
+\par}
+
+The
+{\bf lseek}{\rm ()}
+function allows the file offset to be set beyond the end
+of the file (but this does not change the size of the file).
+If data is later written at this point, subsequent reads of the data
+in the gap (a "hole") return null bytes (\textbackslash 0) until
+data is actually written into the gap.
+%.SS Seeking file data and holes
+Since version 3.1, Linux supports the following additional values for
+{\it whence}{\rm :}
+
+\item[{{\bf SEEK\_DATA}}]
+Adjust the file offset to the next location
+in the file greater than or equal to
+{\it offset}
+containing data.
+If
+{\it offset}
+points to data,
+then the file offset is set to
+{\it offset}{\rm .}
+\item[{{\bf SEEK\_HOLE}}]
+Adjust the file offset to the next hole in the file
+greater than or equal to
+{\it offset}{\rm .}
+If
+{\it offset}
+points into the middle of a hole,
+then the file offset is set to
+{\it offset}{\rm .}
+If there is no hole past
+{\it offset}{\rm ,}
+then the file offset is adjusted to the end of the file
+(i.e., there is an implicit hole at the end of any file).
+\par
+In both of the above cases,
+{\bf lseek}{\rm ()}
+fails if
+{\it offset}
+points past the end of the file.
+
+These operations allow applications to map holes in a sparsely
+allocated file.
+This can be useful for applications such as file backup tools,
+which can save space when creating backups and preserve holes,
+if they have a mechanism for discovering holes.
+
+For the purposes of these operations, a hole is a sequence of zeros that
+(normally) has not been allocated in the underlying file storage.
+However, a filesystem is not obliged to report holes,
+so these operations are not a guaranteed mechanism for
+mapping the storage space actually allocated to a file.
+(Furthermore, a sequence of zeros that actually has been written
+to the underlying storage may not be reported as a hole.)
+In the simplest implementation,
+a filesystem can support the operations by making
+{\bf SEEK\_HOLE}
+always return the offset of the end of the file,
+and making
+{\bf SEEK\_DATA}
+always return
+{\it offset}
+(i.e., even if the location referred to by
+{\it offset}
+is a hole,
+it can be considered to consist of data that is a sequence of zeros).
+% https://lkml.org/lkml/2011/4/22/79
+% http://lwn.net/Articles/440255/
+% http://blogs.oracle.com/bonwick/entry/seek_hole_and_seek_data
+
+The
+{\bf \_GNU\_SOURCE}
+feature test macro must be defined in order to obtain the definitions of
+{\bf SEEK\_DATA}
+and
+{\bf SEEK\_HOLE}
+from
+{\it $<$unistd.h$>$}{\rm .}
+
+Upon successful completion,
+{\bf lseek}{\rm ()}
+returns the resulting offset location as measured in bytes from the
+beginning of the file.
+On error, the value %
+\it (off\_t)\ --1 \rm%
+is returned and
+{\it errno}
+is set to indicate the error.
+
+\item
+High-resolution sleep() call
+{\footnotesize
+\begin{lstlisting}
+long sys_nanosleep(struct timespec *rqtp,
+                   struct timespec *rmtp);
+\end{lstlisting}
+\par}
+
+{\bf nanosleep}{\rm ()}
+suspends the execution of the calling thread
+until either at least the time specified in
+{\it *req}
+has elapsed, or the delivery of a signal
+that triggers the invocation of a handler in the calling thread or
+that terminates the process.
+
+If the call is interrupted by a signal handler,
+{\bf nanosleep}{\rm ()}
+returns --1, sets
+{\it errno}
+to
+{\bf EINTR}{\rm ,}
+and writes the remaining time into the structure pointed to by
+{\it rem}
+unless
+{\it rem}
+is NULL.
+The value of
+{\it *rem}
+can then be used to call
+{\bf nanosleep}{\rm ()}
+again and complete the specified pause (but see NOTES).
+
+The structure
+{\it timespec}
+is used to specify intervals of time with nanosecond precision.
+It is defined as follows:
+\par\vspace{1.0\baselineskip}
+
+{\footnotesize
+\begin{lstlisting}
+struct timespec {
+    time_t tv_sec;  /* seconds */
+    long   tv_nsec; /* nanoseconds */
+};
+\end{lstlisting}
+\par}
+
+\par
+The value of the nanoseconds field must be in the range 0 to 999999999.
+
+Compared to
+{\bf sleep}{\rm (3)}
+and
+{\bf usleep}{\rm (3),}
+{\bf nanosleep}{\rm ()}
+has the following advantages:
+it provides a higher resolution for specifying the sleep interval;
+POSIX.1 explicitly specifies that it
+does not interact with signals;
+and it makes the task of resuming a sleep that has been
+interrupted by a signal handler easier.
+
+On successfully sleeping for the requested interval,
+{\bf nanosleep}{\rm ()}
+returns 0.
+If the call is interrupted by a signal handler or encounters an error,
+then it returns --1, with
+{\it errno}
+set to indicate the error.
+
+\item
+Change access and/or modification times of an inode
+{\footnotesize
+\begin{lstlisting}
+int sys_utime(char* filename, 
+              struct utimbuf* times);
+\end{lstlisting}
+\par}
+
+The
+{\bf utime}{\rm ()}
+system call
+changes the access and modification times of the inode specified by
+{\it filename}
+to the
+{\it actime}{\rm \ and\ }{\it modtime}
+fields of
+{\it times}
+respectively.
+
+If
+{\it times}
+is NULL, then the access and modification times of the file are set
+to the current time.
+
+Changing timestamps is permitted when: either
+the process has appropriate privileges,
+or the effective user ID equals the user ID
+of the file, or
+{\it times}
+is NULL and the process has write permission for the file.
+
+The
+{\it utimbuf}
+structure is:
+
+{\footnotesize
+\begin{lstlisting}
+struct utimbuf {
+    time_t actime;  /* access time */
+    time_t modtime; /* modification time */
+};
+\end{lstlisting}
+\par}
+
+The
+{\bf utime}{\rm ()}
+system call
+allows specification of timestamps with a resolution of 1 second.
+
+The
+{\bf utimes}{\rm ()}
+system call
+is similar, but the
+{\it times}
+argument refers to an array rather than a structure.
+The elements of this array are
+{\it timeval}
+structures, which allow a precision of 1 microsecond for specifying timestamps.
+The
+{\it timeval}
+structure is:
+
+{\footnotesize
+\begin{lstlisting}
+struct timeval {
+    long tv_sec;  /* seconds */
+    long tv_usec; /* microseconds */
+};
+\end{lstlisting}
+\par}
+
+{\it times}{\rm [0]}
+specifies the new access time, and
+{\it times}{\rm [1]}
+specifies the new modification time.
+If
+{\it times}
+is NULL, then analogously to
+{\bf utime}{\rm (),}
+the access and modification times of the file are
+set to the current time.
+\
+On success, zero is returned.
+On error, --1 is returned, and
+{\it errno}
+is set appropriately.
+
+\end{enumerate}
+
+%------------------------------------------------
+
+\section{Results}
+
+During extensive fuzz testing of Linux kernel 3.0.4 (CentOS system 5.6.) thanks to a application's log system (each fuzz worker process has own logfile) we found a number of system calls crashing fuzzing subprocesses. No hangs detected.
+
+We have analyzed a large number of cases and find some patterns, leading to errors.
+
+We are publishing analysis results below:
+
+\begin{table}[H]
+\caption{Fuzz Testing Results}
+\centering
+\begin{tabular}{lllr}
+\toprule
+\cmidrule(r){1-4}
+Rate & System Call & Failure Type & Pattern \\
+\midrule
+High & lseek() & Panic &  Note \#2\\
+High & lchown() & Panic & Note \#3  \\
+High & chmod() & Panic & Note \#3  \\
+Mid & execve() & Panic &  Note \#5\\
+Mid & creat() & Panic &  Note \#4  \\
+Mid & link() & Panic &  Note \#6  \\
+Mid & mknod() & Panic &  Note \#7  \\
+Mid & open() & Panic &  Note \#9  \\
+Low & chdir() & Panic &  Note \#8  \\
+Low & time() & Panic &  Note \#10  \\
+
+
+\bottomrule
+\end{tabular}
+\end{table}
+
+Notes:
+\par
+\par
+
+1. Almost every system call (besides specified in table) receiving file descriptor as first argument it's possible to crash by passing file descriptor just closed with \emph{close()} system call.
+
+2. Some calls will crash after batch of subsequent call. For example, \emph{lseek()} will crash when few times calling it with large negative offsets relative to current file position (possible internal \emph{long int} offset calculation overflow).
+
+3. Random data used as security attributes (when required uid, gid, permission bitmask, etc) will crash calling process with high probability.
+
+4. For some reason if try to create file with existing name (file or dir) same time passing random data to \underline{mode\_t} bitmask creation mode crash is very probable.
+
+5. \emph{sys\_execve()} possible to crash with garbage file instead of executable or script or even with just passing NULL pointers to all arguments.
+
+6. Using existing file/directory as arguments for \emph{link()} will crash.
+
+7. Cambination of existing file/directory as first argument and random \underline{mode\_t} (see Note \#3) will crash \underline{mknod()}.
+
+8. \emph{chdir()} with existing file as an input will crash only in batch,   after a number of another fuzz tested system calls (which didn't crash). This is complex case and is a subject for kernel debugging but we already located a scope of the problem.  
+
+9. \emph{open()} with existing directory as an input will crash sometimes only in batch, after a number of another fuzz tested system calls (which didn't crash). This is complex case and is a subjec for kernel debugging but we already located a scope of the problem.  
+
+10. \emph{time()} as NULL pointer as a buffer argument will crash sometimes only in batch, after a number of another fuzz tested system calls (which didn't crash). This is complex case and is a subject for kernel debugging but we already located a scope of the problem.
+
+
+%------------------------------------------------
+
+\section{Discussion}
+
+\subsection{Generalization of the results}
+
+Some patterns consists of number of arguments (which may implictly be dependant or influence each another). Or as we just seen even more difficult: previous fuzzed calls may "poison" some internal kernel structures and some another next system call may crash, hovewer it will not crash if call it alone in a fuzz sequense after system reboot. Ofter it's difficult or impossible to discover a crash pattern without deep kernel source code analysis.
+
+However, fuzzer's log files have all information required to pass to problematic system call during kernel debugging for easy bug reproduction.
+
+Our results points to the scope of a potential kernel code problem, not to a problem itself. To publish kernel bug report or to debug kernel code ourselves in future it's important to know exact system call arguments caused crash. Best is to try find a pattern(-s) in system call arguments if it's possible use large number of crash statistics. 
+
+\subsection{Conclusions}
+
+Using random (or better, enginered pattern) data proved to be a simple and effective way to test robustness of many aspects of operating systems. The tool developed during this project can be used for easy testing of any modern UNIX/Linux kernel. The developers of these kernels would benefit from using this tool as a way to improve the reliability of their systems. Every new release of an operating system should be subjected to a few days of kernel fuzz testing.
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+ \bibliographystyle{plain}
+ 
+ 
+ \nocite{*}
+ 
+ \bibliographystyle{annotate}
+ \bibliography{bibliography2}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{multicols}
+
+\end{document}

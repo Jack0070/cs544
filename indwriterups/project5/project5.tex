@@ -1,0 +1,64 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{anysize}
+\usepackage{amsmath}
+\marginsize{2cm}{2cm}{1cm}{1cm}
+\usepackage{listings}
+\usepackage{cite}
+\usepackage{caption}
+\usepackage{upquote}
+\usepackage{xcolor}
+\usepackage{xcolor}
+
+\usepackage[T1]{fontenc}
+
+
+\begin{document}
+
+\begin{titlepage}
+    \vspace*{4cm}
+    \begin{flushleft}
+    {\huge
+        CS 411 Operating Systems II Project 5\\[.5cm]
+    }
+    {\large
+         USB Missile Launcher
+    }
+    \end{flushleft}
+    \vfill
+    \rule{5in}{.5mm}\\
+    Li Li
+
+\end{titlepage}
+\section{What do you think the main point of this assignment is?}
+\indent This work is supposed to be fun. But as the last project it also includes some . This project mainly need us to do:
+\begin{itemize}
+\item \emph{understanding of how USB device work in the kernel}  I found most of these related stuff in Chapter 13 from Third Edition of \emph{Linux Device Drivers}, by Jonathan Corbet, Alessandro Rubini, and Greg Kroah-Hartman.
+\item \emph{write a usb module for the usb device} In this particular case, how we implement the char device.
+\item \emph{testing code} This include how we send commands to the device, then it executes. How we measure the correctness is simple: hit the target.
+\end{itemize}
+
+
+\section{How did you personally approach the problem? Design decisions, algorithm, etc.}
+
+\indent My attampt is: use a user-space route via libusb. And by including this libusb library, we do not have to write a module to register the USB device. However, we soon figured out that this approach is miss one important point of this assignment: write a USB module. \\\\
+\indent Then we constructed this USB moudle.For this one, we implement it as a char device. The rough structure of a this USB kernel module includes:
+\begin{itemize}
+\item \emph{struct usb\_cheeky} Structure to hold all of our device specific stuff: usb device, interface, a type for the char command.
+\item \emph{usb\_device\_id cheeky\_table} This is a table of devices that work with this driver.
+\item \emph{ssize\_t set\_command} This function using a write syscall to write command to the USB device.
+\item \emph{int cheeky\_probe} It is called when a USB device is connected to the kernel. It first allocate memory for the device state and initialize it. Then saves data pointer in this interface device, creates file and use dev\_info to tell the user what node is now attached to.
+\item \emph{void cheeky\_disconnect} This part is called when unpluggging a USB device. Bascilly, we just NULL data in the interface, remove devicefile. Kfree the dev. And print dissconnect info to dev\_info.
+\item \emph{struct usb\_driver cheeky\_driver} For this part we tell the kernel the file name and function name for the operations.
+\item \emph{\_int usb\_cheeky\_init and \_exit usb\_cheeky\_exit} This two function is just register and deregister the device.
+\end{itemize}
+\indent After finish the module, we now have to make a control program from user-space.  Basiclly, here we define the command to be 8 bype. First bype is type (CONTROL\_TYPE or LED\_TYPE) and the specific commands: up,down,right,left,led\_on,led\_off,fire. In the main we pass the path of the device command file to main function as a parameter. And then we open() it. We make a command\_to\_ucharp() to write the command, and wirte\_to\_device to do the actually write. In the meanwhile, we include curses\.h to get use of arrow keys. Then we turing on led light, and get commands, after fire we sleep 4 secs to finish the fire command. When hit a undifined key, we just stop. After get a q from command line we close and exit.\\\\
+
+\section{How did you ensure your solution was correct? Testing details, for instance.}
+
+\indent When we test it, we figure out all actions should interrupt one another, except for fire which sleeps to prevent being interrupted. We mix these actions with bitwise. For instance, in case we hit KEY\_RIGHT, we set the command to be like cmd \&= ~LEFT\_COMMAND, cmd |= RIGHT\_COMMAND. Also, to be more precise and more easy to hit the target, the unit space every time it moves should be very small, and we only use the same bullet to fire since every bullet would likely to fire in a differnet angle.
+
+\section{What did you learn?}
+
+\indent First of all, Linux is fun. Also as the final project, it tells me how to use a user space program to interact with given module. However, Linux is also evil, because there is too many details when you look deeper and really want to figure out what is going on there.
+\end {document}

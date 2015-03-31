@@ -1,0 +1,1620 @@
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         1	         2	         0	         2	
+Name:	  Blocking 	 Blocking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         1	         2	         0	         2	
+Name:	  Blocking 	 Blocking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra		 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         1	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         1	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Blocking 	 Thinking 	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Blocking 	 Thinking 	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Blocking 	 Thinking 	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Blocking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Blocking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Blocking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Blocking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         0	         2	         2	
+Name:	  Blocking 	 Thinking 	 Blocking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         0	         2	         2	
+Name:	  Blocking 	 Thinking 	 Blocking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         0	         2	         2	
+Name:	  Blocking 	 Thinking 	 Blocking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Thinking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         1	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         1	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         1	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         0	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         0	         2	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         1	         2	         0	
+Name:	   Eating  	 Thinking 	 Blocking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         1	         2	         0	
+Name:	   Eating  	 Thinking 	 Blocking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         1	         2	         0	
+Name:	   Eating  	 Thinking 	 Blocking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         1	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         1	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         1	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         0	         2	
+Name:	  Blocking 	  Eating  	 Blocking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         0	         2	         0	         2	
+Name:	  Blocking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         1	         0	         0	         2	
+Name:	   Eating  	 Blocking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         1	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         1	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         1	         2	         0	
+Name:	  Thinking 	  Eating  	 Blocking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Blocking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Blocking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         1	
+Name:	  Thinking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         1	
+Name:	  Thinking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         0	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         0	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         0	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         2	         0	         1	
+Name:	   Eating  	 Thinking 	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         2	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         2	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         1	         0	         2	
+Name:	  Blocking 	  Eating  	 Blocking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         1	         0	         2	
+Name:	  Blocking 	  Eating  	 Blocking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         1	         0	         2	
+Name:	  Blocking 	  Eating  	 Blocking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         1	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         2	         0	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         0	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         0	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         0	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Thinking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         2	         1	
+Name:	  Blocking 	  Eating  	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         2	         1	
+Name:	   Eating  	 Thinking 	 Thinking 	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         1	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         1	         0	
+Name:	  Thinking 	  Eating  	  Eating  	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         0	
+Name:	  Thinking 	 Thinking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         1	         2	         2	         0	
+Name:	  Thinking 	 Blocking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         1	         2	         2	         0	
+Name:	  Thinking 	 Blocking 	  Eating  	  Eating  	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         1	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         1	
+Name:	  Thinking 	  Eating  	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         0	         0	         2	
+Name:	  Thinking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         0	         2	
+Name:	  Blocking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         0	         0	         2	
+Name:	  Blocking 	  Eating  	 Thinking 	 Thinking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         0	
+Name:	   Eating  	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Thinking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Thinking 	 Blocking 	 Thinking 	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Blocking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Blocking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Blocking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Thinking 	 Blocking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         2	         2	         1	
+Name:	  Blocking 	 Blocking 	  Eating  	  Eating  	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         1	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         2	         2	         0	         1	
+Name:	  Blocking 	  Eating  	  Eating  	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         2	         0	         0	         1	
+Name:	   Eating  	  Eating  	 Thinking 	 Thinking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          2	         0	         0	         0	         2	
+Name:	   Eating  	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Thinking 	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         2	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Blocking 	  Eating  	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Thinking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Blocking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          0	         0	         0	         0	         0	
+Name:	  Blocking 	 Blocking 	 Thinking 	 Blocking 	 Thinking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------
+Name:	   Dijkstra	 Confucius	        Li	     Hafed	KingFaysal	
+Forks got:          1	         2	         2	         0	         0	
+Name:	  Blocking 	  Eating  	  Eating  	 Blocking 	 Blocking 	
+----------------------------------------------

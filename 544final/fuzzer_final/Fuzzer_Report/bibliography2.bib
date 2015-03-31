@@ -1,0 +1,96 @@
+@ARTICLE{1423963,
+	author={Oehlert, P.},
+	journal={Security Privacy, IEEE},
+	title={Violating assumptions with fuzzing},
+	year={2005},
+	month={March},
+	volume={3},
+	number={2},
+	pages={58-62},
+	doi={10.1109/MSP.2005.55},
+	ISSN={1540-7993},
+	ANNOTATE = {This is a general description of fuzz testing, and claims that it is actually more cost effective than writing exhaustive test cases.  This claim is based on the idea that random inputs exercise similar code coverage for less effort than writing test cases.  While random input works well because it is great at violating assumptions that application writers make, the author claims fuzz testing works best when data crosses a trust boundary (from an untrusted source to a trusted destination), and the best fuzz testing isn't strictly random, rather it is "semi valid".  Semi valid data is valid input data that has been mutated by insertions, duplications, and changed orders so that parsers for that input fail.  There is also a description of the challenge of fuzzing encrypted inputs - the fuzzer needs to know how to make the inputs look valid, and must be aware of the encryption technique or checksum algorithm.},
+}
+
+@ARTICLE{demott2006evolving,
+	title={The evolving art of fuzzing},
+	author={DeMott, Jared},
+	journal={DEF CON},
+	volume={14},
+	year={2006},
+	ANNOTATE = "{This article talks about software fuzzing and amazingly defines twenty eight types of fuzz testing techniques. Moreover, the author defined fuzz testing concept and claims that this kind of testing contributes in costs-saving taking Microsoft as an example. Furthermore, the author biases his argument on the fact that most of software companies are delivering patches to fix buggy software which is more expensive than applying a quality development from the beginning. }"
+}
+
+@inproceedings{bekrar2011finding,
+	title={Finding software vulnerabilities by smart fuzzing},
+	author={Bekrar, Sofia and Bekrar, Chaouki and Groz, Roland and Mounier, Laurent},
+	booktitle={Software Testing, Verification and Validation (ICST), 2011 IEEE Fourth International Conference on},
+	pages={427--430},
+	year={2011},
+	organization={IEEE},
+	ANNOTATE = "{This article supplies excellent definition of fuzz testing technology. Moreover, it describes the blackbox and whitebox techniques and introducing a new technique that combines both blackbox and whitebox. This technique is combined of four fuzzing components: a path predicates collector, an input data generator, a delivery mechanism and a monitoring system. Furthermore, the author describes each component and gives some examples on each one of them.}"
+}
+
+
+@ARTICLE{demott2007revolutionizing,
+	title={Revolutionizing the field of grey-box attack surface testing with evolutionary fuzzing},
+	author={DeMott, Jared and Enbody, Richard and Punch, William F},
+	journal={BlackHat and Defcon},
+	year={2007},
+	ANNOTATE = "{The authors of this article are introducing a new testing technique called Evolutionary Fuzzy System (EFS) that analyzes the status of a target software at the runtime stage, which unlike the whitebox or blacakbox where they require direct access to the source code or the program input/output. Moreover, this tool actively studies the interface protocol of the target program and act accordingly. To validate this concept further, they used SMTP as an example to illustrate their proposed technique and FTP as a test case for their concept. }"
+}
+
+@ARTICLE{miller1995fuzz,
+	title={Fuzz revisited: A re-examination of the reliability of UNIX utilities and services},
+	author={Miller, Barton Paul and Koski, David and Lee, Cjin Pheow and Maganty, Vivekananda and Murthy, Ravi and Natarajan, Ajitkumar and Steidl, Jeff},
+	year={1995},
+	publisher={University of Wisconsin-Madison, Computer Sciences Department},
+	ANNOTATE = "{The main purpose of this article is testing the reliability of Linux, Unix and X-Windows utility programs, applications, servers and network services. The authers developed a tool called fuzz generator that automatically emits various types of random output streams to simpilify the experement and quickly get good results. However, this test revealed many failures related to system applications and programms that they had to identify and catogrize the root causes for these failures. Moreover, they discribed the tool they used in this experment and gave some examples of how the tool would test the system applications. }"
+
+}
+
+@inproceedings{schmid1999data,
+	title={Data generation techniques for automated software robustness testing},
+	author={Schmid, Matthew and Hill, Frank},
+	booktitle={Proceedings of the international conference on testing computer software},
+	pages={14--18},
+	year={1999},
+	ANNOTATE = "{The authors discuss the origins of fuzz testing to University of Wisconsin's 'Fuzz' and Carnegie Mellon's 'Ballista' project.  Fuzz used 'generic data': purely random inputs and Ballista attempted 'intelligent data': smart inputs that matched specialized generators with each type expected by the utility.  They then perform automated testinging using scripts to compare the two techniques on Windows NT kernel and command line utilities, finding lots of errors.}"
+}
+
+@ARTICLE{miller1990empirical,
+	title={An empirical study of the reliability of UNIX utilities},
+	author={Miller, Barton P and Fredriksen, Louis and So, Bryan},
+	journal={Communications of the ACM},
+	volume={33},
+	number={12},
+	pages={32--44},
+	year={1990},
+	publisher={ACM},
+	ANNOTATE = "{This article might be the first publication on fuzz testing.  Given that formal verification of software is a long way off, automated testing may be our best option for software reliability.  Inspired by a bad modem connection inserting garbage characters causing unix utilities to crash, they created fuzz and ptyjig to give simple random inputs to command line and interactive applications.  Seven versions of Unix were tested, and they were able to get failure rates up to 33% of all utilities tested.  (Failure was defined as core dumps or hangs.)   }"
+}
+
+@ARTICLE{bezenek1996using,
+	title={Using Fuzz to Test the Reliability of Unix Kernels},
+	author={Bezenek, Todd M and Wright, Derek},
+	year={1996},
+	ANNOTATE = "{Inspired by the 'fuzz' tool and its testing of applications and utilities, the authors attempt fuzz testing on the kernaels of five different Unix variants.  They used syscall() directly, feeding random inputs to kernel system calls.  To cover as many cases as possible they only turned logging on when a crash occurred and re-ran the previous block of random inputs. Hundreds of millions of system calls were made with random data, and only IRIX was found to be unstable, although HPUX and Solaris had some bad behaviors.  They mention crashme as a popular tool that created random strings and then tried to execute them.}"
+}
+
+
+@ARTICLE{Knudsen2014,
+	title={Practical ConsiderationsOf Fuzzing: Generating Insight into Areas of Risk},
+	author={Jonathan Knudsen},
+	year={2014},
+	ANNOTATE = {In this article, the author discussed the best practice of applying any kind of fuzz testing. Moreover, the author provides practical considerations to obtain the best out of the fuzz testing. Furthermore, the author highlighted the importance of Creating a Test Plan, Choosing Your Weapons (tools), Defining a Failure and Detecting a Failure.}"
+}
+
+@ARTICLE{Bowers2014,
+	title={An Inquiry into the Stability and Reliability of UNIX Utilities},
+	author={Brian L. Bowers, Karlen Lie, Gregory J. Smethells},
+	publisher={University of Wisconsin-Madison, Computer Sciences Department}
+	year={2009},
+	ANNOTATE = "{The authors tested the stability and reliability of GNU/Linux and Solaris platforms. Their main goals were producing an updated tool and compare the reliability of current UNIX utilities to the reliability found by earlier studies. They used random streams of bytes generated by the program fuzz as input to the various utilities such as dbx, csh and groff. Moreover, they provided an excellent table showing when utilities get crashed or hanged.}
+}
+
+@comment "The earliest reference to fuzzing of which we are aware dates back to 1989.  Professor Barton Miller considered by many to be the "father" of fuzzing and his Advanced Operating Systems class developed and used a primitive fuzzer to test the robustness of Unix applications.

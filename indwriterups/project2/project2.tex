@@ -1,0 +1,51 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{anysize}
+\usepackage{amsmath}
+\marginsize{2cm}{2cm}{1cm}{1cm}
+\usepackage{listings}
+\usepackage{cite}
+\usepackage{caption}
+\usepackage{upquote}
+\usepackage{xcolor}
+\usepackage{xcolor}
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \vspace*{4cm}
+    \begin{flushleft}
+    {\huge
+        CS 411 Operating Systems II Project 2\\[.5cm]
+    }
+    {\large
+        Implement the Shortest Seek Time First(SSTF) I/O scheduler
+    }
+    \end{flushleft}
+    \vfill
+    \rule{5in}{.5mm}\\
+    Li Li
+
+\end{titlepage}
+\section{What do you think the main point of this assignment is?}
+\indent This assignment now start to talk about the linux kernel. Last time we learned about process scheduler, this time it is I/O scheduler. A serials of structs and concepts that implement in linux system should be made clear, these include:
+\begin{itemize}
+\item \emph{concepts}  This would be like sector, block ,request, SSFT and etc.
+\item \emph{structs and functions} bio struct, request struct, dispatch function, elevator.
+\item \emph{some reviews on queues, link list these kinds of stuff} It seems to be the core how the program works.
+\end{itemize}
+
+
+\section{How did you personally approach the problem? Design decisions, algorithm, etc.}
+\indent In the first place, I thought the scheduler would be just find the nearest request and dispatch it. I knew it would cause problem like a overload system keeping generate I/O request near the driver hand, that the farside request would never appear in the dispatch queue. But I thought it is meant to be and  I even write some demo codes to generate these kinds of I/O requests to the system. Than if the system runs into it, I demoed the SSTF. Then, I was correctted by other group members. It should include the the elevator machanism.\\\\
+\indent Our implementation is based on noop-iosched.c, most of the functions are similar excluding sstf\_dispatch() and sstf\_add\_request().  Basiclly, we start with an increace direction. And when a request is added, we add it into a double linked list. In the dispatch function, we first check if the list is empty, than return. If there is one have sector larger than the prev one, we dispatch it. We go over this procedure and hit he sentinel. After that, turn it aroud and do the similar stuff but to find the smaller sector and dispatch. In this method, it continues until the cpu halts.
+
+\section{How did you ensure your solution was correct? Testing details, for instance.}
+\indent We test the I/O scheduler by add printk() to each step in the  sstf\_dispatch() and sstf\_add\_request() and set a [sstf] label to each message. Thus the kernel would have a logfile be written. We could use  "dmesg \textbar grep [sstf]" to see the results.
+
+\section{What did you learn?}
+\indent In the beginning, it is quit hard for me to find useful fuctions, structs in the linux. But now I can find them very quick by either go to https://www.kernel.org/doc/htmldocs/kernel-api/ ,use grep command in bash or C-i in emacs.
+\end {document}
